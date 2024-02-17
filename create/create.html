@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Table CSV Export</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Add your custom CSS here */
+    body {
+      background-color: #f0f0f0;
+      color: #333;
+    }
+
+    .container {
+      margin-top: 50px;
+    }
+
+    .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+    }
+
+    .btn-primary:hover {
+      background-color: #0056b3;
+      border-color: #0056b3;
+    }
+
+    .btn-success {
+      background-color: #28a745;
+      border-color: #28a745;
+    }
+
+    .btn-success:hover {
+      background-color: #218838;
+      border-color: #218838;
+    }
+
+    .btn-info {
+      background-color: #17a2b8;
+      border-color: #17a2b8;
+    }
+
+    .btn-info:hover {
+      background-color: #138496;
+      border-color: #138496;
+    }
+
+    .table th,
+    .table td {
+      text-align: center;
+    }
+
+    .table th {
+      background-color: #343a40;
+      color: #fff;
+    }
+
+    .table tbody tr:hover {
+      background-color: #f8f9fa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Table to CSV</h2>
+    <p>Welcome to the Dynamic Table application! Here you can create a custom table by adding rows and columns, enter data into the cells, and export the table data as a CSV file.</p>
+    <p><strong>How to use:</strong></p>
+    <ol>
+      <li>Click on the "<strong>Add Column</strong>" button to add a new column to the table. Enter the column name and select the data type from the dropdown.</li>
+      <li>Once columns are added, you can click on the "<strong>Add Row</strong>" button to add a new row to the table.</li>
+      <li>Click on any cell in the table to edit its value. You'll be prompted to enter a new value.</li>
+      <li>Once you've entered all the data into the table, click on the "<strong>Export CSV</strong>" button to download the table data as a CSV file.</li>
+    </ol>
+    <div id="column-input">
+      <input type="text" id="column-name" placeholder="Column Name">
+      <select id="column-type">
+        <option value="text">Text</option>
+        <option value="number">Number</option>
+        <option value="date">Date</option>
+      </select>
+      <button id="add-column" class="btn btn-primary">Add Column</button>
+    </div>
+    <button id="add-row" class="btn btn-success">Add Row</button>
+    <button id="export-csv" class="btn btn-info">Export CSV</button>
+    <table id="data-table" class="table">
+      <thead>
+        <tr id="header-row">
+          <th>#</th> <!-- Serial number column -->
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    
+  </div>
+  <script src="create.js"></script>
+</body>
+</html>
