@@ -21,7 +21,7 @@ Moreover, our expertise extends to visualizing both CSV and Excel files, offerin
 ## Prototype Features
 
 ### Main Webpage
-- Visit our main webpage to learn more about our prototype: [Main Webpage](https://6jvqzqezdbmqc8jayxytma.on.drv.tw/Effective_analys/index.htm)
+- Visit our main webpage to learn more about our prototype: [Main Webpage](https://onvyashas.github.io/ActiveStuds/)
 
 ### Data Analysis Page
 - Dive into data analysis with our specialized tool: [Data Analysis Page](https://6jvqzqezdbmqc8jayxytma.on.drv.tw/Effective_analys/analyse/ult.html)
