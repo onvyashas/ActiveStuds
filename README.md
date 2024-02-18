@@ -6,7 +6,7 @@ Welcome to the README file for Team Active Studs Prototype, a solution crafted t
 
 ### Team Members
 - YASHAS C RAJU - [GitHub Profile](https://github.com/onvyashas)
-- ALEX CATCHIK - [GitHub Profile](https://github.com/AlexCatchick)
+- ALEX CATCHICK - [GitHub Profile](https://github.com/AlexCatchick)
 
 ## Prototype Overview
 
